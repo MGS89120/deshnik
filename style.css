@@ -1,0 +1,279 @@
+body {
+    margin: 0;
+    padding: 0;
+    clear:both;
+}
+
+header {
+    background-color: #9A9494;
+    max-width: 2560px;
+    height: 150px;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+#logo img {
+    position: relative;
+    padding: 35px;
+    height: 80px;
+}
+
+nav {
+    background-color: #9A9494;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav ul {
+    background-color: #9A9494;
+    position: relative;
+    left: 100px;
+    height: 150px;
+    max-width: 1000px;
+    margin: 0;
+    float: left;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    height: 100%;
+}
+
+nav ul a li {
+    position: relative;
+    float: left;
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    text-transform: uppercase;
+    height: 150px;
+    line-height: 150px;
+}
+
+nav ul a li:hover {
+    background-color: #3F3F3F;
+}
+
+main {
+    width: 100%;
+    max-width: 1440px;
+    height: 100%;
+    margin-bottom: 1px;
+}
+
+.ind_2 {
+    width: 100%;
+    max-width: 2560px;
+}
+
+#img_1 {
+    position: relative;
+    float: right;
+    width: 25%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.paragraph_1 {
+    font-size: 24px;
+    margin-left: 3%;
+}
+
+.paragraph_2 {
+    font-size: 18px;
+}
+
+.back {
+    
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 10%;
+}
+
+section img {
+    float: left;
+    margin-right: 20px;
+}
+
+.news_title {
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.news_link {
+    text-decoration: none;
+
+}
+
+
+footer {
+    width: 100%;
+    max-width: 2560px;
+    height: 100px;
+    background-color: #3F3F3F;
+    margin-top: 50px;
+}
+
+footer ul {
+    width: 250px;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    list-style: none;
+
+}
+
+footer ul a li:hover {
+background-color: white;
+color: black;
+}
+
+#callback {
+    width: 300px;
+    height: 150px;
+    background-color: gray;
+    position: absolute;
+    top: 450px;
+    left: 0;
+    transform: translateX(-100%);
+}
+
+#callback p {
+    color: white;
+    padding: 22px;
+}
+
+#callback::after {
+    content: 'обратная связь';
+    background-color: pink;
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+    padding: 5px 0;
+    width: 150px;
+    position: absolute;
+    left: 300px;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+}
+
+#callback:hover {
+    transform: translateX(0%);
+    transition: all 0.7s ease;
+}
+
+
+@media screen and (max-width: 1000px) {
+    nav ul {
+        left: 10px;
+        height: 150px;
+        max-width: 1000px;
+        margin: 0;
+        float: left;
+        padding-left: 0;
+    }
+    
+    nav ul a {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+        text-align: center;
+        height: 100%;
+    }
+    
+    nav ul a li {
+        position: relative;
+        float: left;
+        list-style: none;
+        display: inline;
+        text-transform: lowercase;
+        margin-right: 5px;
+        height: 150px;
+        line-height: 150px;
+    } 
+    #logo {
+        width: 80px;
+        height: 80px;
+        float: left;
+    }
+    
+    #logo img {
+        position: relative;
+        padding-left: 10px;
+        height: 80px;
+        height: 80px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        background-color: #9A9494;
+        max-width: 480px;
+        height: 150px;
+    }
+    #logo {
+        width: 80px;
+        height: 80px;
+    }
+    
+    #logo img {
+        position: relative;
+        padding: 5px;
+        height: 80px;
+    }
+    
+    nav {
+        background-color: #9A9494;
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    nav ul {
+        position: relative;
+        height: 18px;
+        max-width: 480px;
+        margin: 0;
+        margin-top: 20px;
+    }
+    
+    nav ul a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        height: 100%;
+    }
+    
+    nav ul a li {
+        position: relative;
+        list-style: none;
+        margin-right: 20px;
+        text-transform: lowercase;
+        height: 18px;
+        line-height: 18px;
+    }
+}
