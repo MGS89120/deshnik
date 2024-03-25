@@ -74,12 +74,16 @@ main {
     max-width: 2560px;
 }
 
-#img_1 {
+.img_1 {
     position: relative;
     float: right;
     width: 25%;
     margin-right: 2%;
     margin-left: 2%;
+}
+
+.img_2 {
+    width: 100px;
 }
 
 .paragraph_1 {
@@ -89,6 +93,7 @@ main {
 
 .paragraph_2 {
     font-size: 18px;
+    margin-left: 3%;
 }
 
 .back {
@@ -97,9 +102,14 @@ main {
     color: black;
     font-size: 18px;
     list-style: none;
+    margin-left: 3%;
 }
 
 h1 {
+    text-align: center;
+}
+
+h2 {
     text-align: center;
 }
 
