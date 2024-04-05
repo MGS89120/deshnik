@@ -181,7 +181,7 @@ color: black;
 }
 
 #callback::after {
-    content: 'обратная связь';
+    content: 'о разделе';
     background-color: pink;
     text-align: center;
     border-radius: 0 0 8px 8px;
